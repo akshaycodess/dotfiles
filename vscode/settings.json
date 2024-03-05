@@ -1,0 +1,266 @@
+// Place your settings in this file to overwrite the default settings
+{
+    "composer.executablePath": "/opt/homebrew/bin/composer",
+    "editor.fontSize": 14,
+    "editor.fontLigatures": true,
+    "window.zoomLevel": 0.5,
+    "workbench.colorCustomizations": {},
+    "editor.fontFamily": "'Cascadia Code','Fira Code', Menlo, Monaco, 'Courier New', monospace",
+    "peacock.favoriteColors": [
+        {
+            "name": "Angular Red",
+            "value": "#dd0531"
+        },
+        {
+            "name": "Azure Blue",
+            "value": "#007fff"
+        },
+        {
+            "name": "JavaScript Yellow",
+            "value": "#f9e64f"
+        },
+        {
+            "name": "Mandalorian Blue",
+            "value": "#1857a4"
+        },
+        {
+            "name": "Node Green",
+            "value": "#215732"
+        },
+        {
+            "name": "React Blue",
+            "value": "#61dafb"
+        },
+        {
+            "name": "Something Different",
+            "value": "#832561"
+        },
+        {
+            "name": "Svelte Orange",
+            "value": "#ff3d00"
+        },
+        {
+            "name": "Vue Green",
+            "value": "#42b883"
+        },
+        {
+            "name": "Auth0 Orange",
+            "value": "#eb5424"
+        },
+        {
+            "name": "C# Purple",
+            "value": "#68217A"
+        },
+        {
+            "name": "Gatsby Purple",
+            "value": "#639"
+        },
+        {
+            "name": "Go Cyan",
+            "value": "#5dc9e2"
+        },
+        {
+            "name": "Java Blue-Gray",
+            "value": "#557c9b"
+        }
+    ],
+    "gitProjectManager.openInNewWindow": true,
+    "gitProjectManager.baseProjectsFolders": [
+        "~/projects/"
+    ],
+    "search.useIgnoreFiles": false,
+    "php.validate.enable": false,
+    // "phpcs.enable": false,
+    "[dockerfile]": {
+        "editor.defaultFormatter": "ms-azuretools.vscode-docker"
+    },
+    // "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "git.autofetch": true,
+    // "editor.tabSize": 2,
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "editor.renderWhitespace": "none",
+    "go.formatTool": "goimports",
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "python.formatting.provider": "black",
+    "php.suggest.basic": false,
+    "php.memoryLimit": "4096M",
+    "files.autoSave": "afterDelay",
+    "customizeUI.titleBar": "inline",
+    "customizeUI.activityBar": "regular",
+    "window.titleBarStyle": "native",
+    "terraform.languageServer": {
+        "external": true,
+        "args": [
+            "serve"
+        ]
+    },
+    // "dimmer.enabled": true,
+    "editor.multiCursorModifier": "alt",
+    "dimmer.opacity": 80,
+    "terminal.integrated.minimumContrastRatio": 4.5,
+    "terminal.integrated.fontSize": 16,
+    "java.semanticHighlighting.enabled": false,
+    "files.exclude": {
+        "**/.classpath": true,
+        "**/.project": true,
+        "**/.settings": true,
+        "**/.factorypath": true
+    },
+    "python.languageServer": "Pylance",
+    "todo-tree.tree.showScanModeButton": false,
+    "terminal.integrated.shell.osx": "/bin/zsh",
+    "disableLigatures.ligatures": [
+        ".=",
+        ".-",
+        ":=",
+        "=:=",
+        "==",
+        "!=",
+        "===",
+        "!==",
+        "=/=",
+        "<-<",
+        "<<-",
+        "<--",
+        "<-",
+        "<->",
+        "->",
+        "-->",
+        "->>",
+        ">->",
+        "<=<",
+        "<<=",
+        "<==",
+        "<=>",
+        "=>",
+        "==>",
+        "=>>",
+        ">=>",
+        ">>=",
+        ">>-",
+        ">-",
+        "<~>",
+        "-<",
+        "-<<",
+        "=<<",
+        "<~~",
+        "<~",
+        "~~",
+        "~>",
+        "~~>",
+        "<<<",
+        "<<",
+        "<=",
+        "<>",
+        ">=",
+        ">>",
+        ">>>",
+        "{.",
+        "{|",
+        "[|",
+        "<:",
+        ":>",
+        "|]",
+        "|}",
+        ".}",
+        "<|||",
+        "<||",
+        "<|",
+        "<|>",
+        "|>",
+        "||>",
+        "|||>",
+        "<$",
+        "<$>",
+        "$>",
+        "<+",
+        "<+>",
+        "+>",
+        "<*",
+        "<*>",
+        "*>",
+        "\\\\",
+        "\\\\\\",
+        "\\*",
+        "*/",
+        "///",
+        "//",
+        "<//",
+        "<!==",
+        "</>",
+        "-->",
+        "/>",
+        ";;",
+        "::",
+        ":::",
+        "..",
+        "...",
+        "..<",
+        "!!",
+        "??",
+        "%%",
+        "&&",
+        "||",
+        "?.",
+        "?:",
+        "+",
+        "++",
+        "+++",
+        "-",
+        "--",
+        "---",
+        "*",
+        "**",
+        "***",
+        "~=",
+        "~-",
+        "www",
+        "-~",
+        "~@",
+        "^=",
+        "?=",
+        "/=",
+        "/==",
+        "|=",
+        "||=",
+        "#!",
+        "##",
+        "###",
+        "####",
+        "#{",
+        "#[",
+        "]#",
+        "#(",
+        "#?",
+        "#_",
+        "#_("
+    ],
+    // "terminal.integrated.fontFamily": "JetBrains Mono",
+    "[dart]": {
+        "editor.formatOnSave": true,
+        "editor.formatOnType": true,
+        "editor.rulers": [
+            80
+        ],
+        "editor.selectionHighlight": false,
+        "editor.suggest.snippetsPreventQuickSuggestions": false,
+        "editor.suggestSelection": "first",
+        "editor.tabCompletion": "onlySnippets",
+        "editor.wordBasedSuggestions": "off"
+    },
+    "workbench.colorTheme": "Visual Studio Dark",
+    "application.shellEnvironmentResolutionTimeout": 120,
+    "workbench.iconTheme": "material-icon-theme",
+    "redhat.telemetry.enabled": true,
+    "editor.formatOnPaste": false,
+    "editor.formatOnSave": false,
+    "editor.formatOnType": false,
+}

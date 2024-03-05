@@ -1,0 +1,10 @@
+#drupal
+Host git.drupalcode.org 
+   HostName git.drupalcode.org 
+   User git
+   IdentityFile ~/.ssh/id_ed25519
+#work
+Host github.com
+   HostName github.com
+   User git
+   IdentityFile ~/.ssh/id_ed25519_work
