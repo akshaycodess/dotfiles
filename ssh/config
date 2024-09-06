@@ -1,4 +1,4 @@
-#drupal
+#personal
 Host git.drupalcode.org 
    HostName git.drupalcode.org 
    User git
@@ -7,4 +7,7 @@ Host git.drupalcode.org
 Host github.com
    HostName github.com
    User git
-   IdentityFile ~/.ssh/id_ed25519_work
+   #personal
+   IdentityFile ~/.ssh/id_ed25519
+   #work
+   #IdentityFile ~/.ssh/id_rsa

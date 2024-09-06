@@ -1,8 +1,11 @@
 [user]
   name = Akshay Singh
   email = jobakshay21@gmail.com
-[includeIf "gitdir:~/projects/work/"]
-    path = ~/dotfiles/git/gitconfig-work
+  # email = akshay.singh@axelerant.com
+  # go and check .ssh/config for setup
+# not working currently
+# [includeIf "gitdir:~/projects/work/"]
+#     path = ~/dotfiles/git/gitconfig-work
 [init]
 	defaultBranch = main
 [core]
